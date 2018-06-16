@@ -1,0 +1,163 @@
+body{
+	padding:0px;
+	margin: 0px auto;
+}
+.navbar{
+	background-color: #eecd48;
+	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: 0px;
+	border-radius: 0%;
+}
+.nav li{
+	padding: 15px;
+	font-size: 2.5rem;
+
+}
+.nav a{
+	text-decoration: none;
+	font-weight: 550;
+	color: #856f15 !important;
+
+}
+.nav a:hover{
+	color: black !important;
+}
+.navbar-brand{
+	font-weight: bold;
+	font-size: 3.5rem;
+	margin-top: 15px;
+	
+	color: #856f15 !important;
+}
+.carousel-caption{
+	color: white !important;
+	font-family: 'Open Sans Condensed', sans-serif;
+	top: -3px;
+
+}
+.carousel-caption h1{
+	font-size: 6rem;
+	font-weight: bold;
+}
+.carousel-caption p{
+	font-size: 4rem;
+}
+.jumbotron{
+	border-radius: 0%;
+}
+.whysolar{
+	background-color: #e0edfe !important;
+	margin-top: 10px;
+	color: #2b3988;
+}
+.box{
+	border:1.5px solid #eecd48;
+	border-radius: 10px;
+	border-width: 1px;
+	min-height: 200px;
+
+}
+.icons{
+	width: 130px;
+	height: 110px;
+	font-size: 60px;
+	margin-top: -45px;
+	color: #eecd48;
+	
+}
+.horizontal{
+	border-bottom: 3px solid black;
+	width: 80px;
+	margin-top: -40px;
+}
+.contain{
+	position: relative;
+
+}
+.contain{
+	position: relative;
+	width: 350px;
+	height: 210px;
+	
+	background-size: cover;
+	background-position: center;
+	transition: 0.5s;
+}
+.contain:hover {
+	background-size: 110%;
+}
+.contain:after{
+	position: absolute;
+	top: 70%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+	overflow: hidden;
+	background-color: rgba(0 0 0 0.6);
+	color: #fff;
+	font-size: 2rem;
+	padding: 0px 8px;
+	content: attr(data-text);
+	transition: 0.5s;
+}
+.contain:hover:after{
+	top: 0;
+	padding: 8px;
+}
+.contain:first-line{
+	color: #fff;
+	font-weight: bold;
+	font-size: 3rem;
+}
+.benifits{
+	background-color: #e0edfe !important;
+	margin-top: 10px;
+	color: #2b3988;
+}
+.know{
+	background-image: url(https://solarbyluminous.com/bottom-bg.c0754c389af375e02aff.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+footer{
+	background-color: #241905;
+	color: #fff;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+footer ul{
+	margin-left: 650px;
+}
+footer li i{
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background-color: #957444;
+    
+	padding: 30px 20px 30px 20px;
+	margin: 10px;
+}
+
+footer a{
+	color: #fff;
+	text-align: center;
+	font-size: 2.5rem;
+}
+footer .fa{
+	text-align: center;
+}
+.content{
+	position: relative;
+	color: #fff;
+	text-align: center;
+}
+.content .text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
