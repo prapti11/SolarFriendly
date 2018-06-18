@@ -159,5 +159,15 @@ footer .fa{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
+}
+.basics h1{
+    color: #0464ab;
+}
+.basics h2{
+	color: #0464ab;
+}
+.basics p{
+	color: #aaa;
+	font-size: 16px;
 
 }
