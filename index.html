@@ -16,6 +16,7 @@
 </head>
 <body>
 	<!-- Navbar -->
+<div class="container-fluid">  
 <section class="topnav">
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
@@ -170,7 +171,7 @@ Robust, Reliable and efficient inverters and power conditioning units.">
 Indias's most preffered batteries for power solutions involving back-up.">
   	    	</div></center>
   	    </div>
-  	</div>
+  	    </div>
   	</div>
   </section>
   <br/>
@@ -269,6 +270,7 @@ Luminous makes Solar Simple For You!</p>
   <br/>
   <br/>
   </section>
+  <!--Solar basics-->
    <section class="basics">
   	<div class="container">
   	<center class="wow fadeIn animated" data-wow-duration="5s"><h1>Solar <strong>Basics</strong></h1>
@@ -388,26 +390,28 @@ Luminous makes Solar Simple For You!</p>
   			</div>
   		</div><br/><br/>
   		<div class="row">
-  			<div class="col-md-12">
-  				<center>
+  			<div class="col-md-12 social">
                     <h2>Follow Us-</h2><br/>
   					<ul class="list-unstyled " style="display: flex;">
   					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
   					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
   					<li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
   					<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-  				</ul></center>
+  				</ul> 
   			</div>
   		</div>
   	</footer>
   </section>
-  <br/>
-  <br/>
-  <!--Solar Basics-->
- 
-   <script src="js/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script>
+</div>
+<script>
+wow = new WOW( {
+    boxClass:     'wow',
+    animateClass: 'animated',
+    offset:       100
+    }
+);
+
+wow.init();
+</script>
 </body>
 </html>

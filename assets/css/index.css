@@ -1,6 +1,8 @@
-body{
-	padding:0px;
-	margin: 0px auto;
+
+html,body{
+	padding:0;
+	margin: 0;
+	overflow-x: hidden;
 }
 .navbar{
 	background-color: #eecd48;
@@ -126,33 +128,31 @@ body{
 footer{
 	background-color: #241905;
 	color: #fff;
+	width: 100vw;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
-footer ul{
-	margin-left: 650px;
-}
-footer li i{
-	width: 36px;
-	height: 36px;
+.social .fa{
+	font-size: 2rem;
+	color: #fff;
+	background-color: black;
 	border-radius: 50%;
-	background-color: #957444;
-    
-	padding: 30px 20px 30px 20px;
+	padding: 1.2rem;
 	margin: 10px;
+
 }
 
-footer a{
-	color: #fff;
-	text-align: center;
-	font-size: 2.5rem;
+.social ul,h2{
+	justify-content: center;
+	text-align: center !important;
+
 }
-footer .fa{
-	text-align: center;
-}
+
 .content{
 	position: relative;
 	color: #fff;
 	text-align: center;
+	justify-content: center;
+	overflow: hidden;
 }
 .content .text{
 	position: absolute;
